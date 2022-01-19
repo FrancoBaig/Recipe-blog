@@ -1,3 +1,156 @@
+html {
+  font-size: 16px;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 970px;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+.container .header {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+.container .header #title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+.container .header .sub {
+  padding-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+.container .header .sub i {
+  color: #C4C4C4;
+  padding: 2px 6px;
+}
+.container .header .sub p {
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #4F4F4F;
+  width: 36.25rem;
+}
+.container .content {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  grid-template-rows: repeat(3, auto);
+}
+.container .content #imag {
+  grid-column: 1/-1;
+  width: 100%;
+  max-height: 27.75rem;
+  height: auto;
+  margin-bottom: 55px;
+}
+.container .content .ingredients .sub-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+}
+.container .content .ingredients .italic-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.12rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 2.5rem;
+  margin-bottom: 2.2rem;
+}
+.container .content .ingredients .line {
+  display: flex;
+  gap: 20px;
+  padding: 8px 0px;
+}
+.container .content .ingredients .line .check {
+  min-width: 1.3125rem;
+  height: 1.3125rem;
+  border: 1px solid #828282;
+  border-radius: 4px;
+}
+.container .content .ingredients .line .ingredient {
+  font-style: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.container .content .ingredients .line .ingredient span {
+  font-weight: 700;
+  color: #333333;
+}
+.container .content .ingredients .line #suggestion {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+.container .content .card {
+  justify-self: flex-end;
+  width: 220px;
+  height: 375px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px 0px #0000001A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8125rem;
+}
+.container .content .card .wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .content .card .wrap .icon {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  font-size: 1.5625rem;
+}
+.container .content .card .wrap .top-text {
+  font-style: 0.625rem;
+  font-family: "Montserrat", sans-serif;
+  color: #bdbdbd;
+}
+.container .content .card .wrap .info-text {
+  font-style: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+.container .content .card .wrap:first-child .icon, .container .content .card .wrap:first-child .info-text {
+  color: #F2994A;
+}
+.container .content .instructions {
+  margin-top: 2.1875rem;
+}
+.container .content .instructions .instruction-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.container .content .instructions .line {
+  display: flex;
+  gap: 20px;
+  padding: 8px 0px;
+}
+.container .content .instructions .line .orange-box {
+  min-width: 38px;
+  height: 38px;
+  background: #F2994A;
+  color: white;
+  border-radius: 4px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.container .content .instructions .line .instruction {
+  font-style: 1rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+.container .content .instructions .line .instruction span {
+  font-weight: 700;
+  color: #333333;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,211 @@
+$white: #FFFFFF;
+$orange: #F2994A;
+$black: #000000;
+$grey1: #333333;
+$grey2: #4F4F4F;
+
+$play-font: 'Playfair Display', serif;
+$monse-font: 'Montserrat', sans-serif;
+
+@mixin title($size) {
+    font-family: $play-font;
+    font-size: $size;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0; padding: 0;
+}
+
+body{
+    // background: #C4C4C4;
+}
+
+.container{
+    width: 90%;
+    max-width: 970px;
+    margin: 0 auto;
+
+    background: $white;
+
+    .header{
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+
+        #title{
+            @include title(3rem);
+        }
+
+        .sub{
+            padding-top: 1rem;
+            display: flex;
+            align-items: flex-start;
+
+            i {
+                color: #C4C4C4;
+                padding: 2px 6px;
+            }
+
+            p{
+                font-size: 0.875rem;
+                font-family: $monse-font;
+                font-weight: 500;
+                font-style: italic;
+                color: $grey2;
+                width: 36.25rem;
+            }
+        }
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: 0.6fr 0.4fr;
+        grid-template-rows: repeat(3, auto);
+
+        #imag{
+            grid-column: 1 / -1;
+            width: 100%;
+            max-height: 27.75rem;
+            height: auto;
+            margin-bottom: 55px;
+        }
+        
+        .ingredients{
+
+            .sub-title {
+                @include title(1.5rem);
+            }
+
+            .italic-title {
+                @include title(1.12rem);
+                font-weight: 400;
+                font-style: italic;
+                margin-top: 2.5rem;
+                margin-bottom: 2.2rem;
+            }
+
+            .line{
+                display: flex;
+                gap: 20px;
+                padding:8px 0px;
+
+                .check{
+                    min-width: 1.3125rem;
+                    height: 1.3125rem;
+                    border: 1px solid #828282;
+                    border-radius: 4px;
+                }
+                
+
+                .ingredient{
+                    font-style: 1rem;
+                    font-family: $monse-font;
+
+                    span {
+                        font-weight: 700;
+                        color: $grey1;
+                    }
+                }
+
+                #suggestion{
+                    font-family: $monse-font;
+                    font-style: italic;
+                }
+            }
+        }
+
+        .card {
+            justify-self: flex-end;
+            width: 220px;
+            height: 375px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 20px 0px #0000001A;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2.8125rem;
+
+
+            .wrap{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon{
+                    width: 1.5625rem;
+                    height: 1.5625rem;                    
+                    font-size: 1.5625rem;
+                }
+
+                .top-text{
+                    font-style: 0.625rem;
+                    font-family: $monse-font;
+                    color: #bdbdbd;
+
+                }
+
+                .info-text{
+                    font-style: 0.875rem;
+                    font-family: $monse-font;
+                    color: $grey1;
+                }
+
+                &:first-child{
+                    .icon, .info-text{
+                        color: $orange;
+                    }
+                }
+            }
+        }
+
+        .instructions{
+            margin-top: 2.1875rem;
+
+            .instruction-title{
+                @include title(1.5rem);
+                margin-bottom: 20px;
+            }
+
+            .line{
+                display: flex;
+                gap: 20px;
+                padding:8px 0px;
+                
+
+                
+    
+                .orange-box{
+                    min-width: 38px;
+                    height: 38px;
+                    background: $orange;
+                    color: white;
+                    border-radius: 4px;
+                    @include title(1.5rem);
+                    text-align: center;
+                }
+
+                .instruction{
+                    font-style: 1rem;
+                    font-weight: 400;
+                    font-family: $monse-font;
+
+                    span {
+                        font-weight: 700;
+                        color: $grey1;
+                    }
+                }
+            }
+
+            
+
+
+        }
+    }
+
+}
