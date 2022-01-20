@@ -105,7 +105,7 @@ span {
                 gap: 1.25rem;
                 padding:0.5rem 0px;
 
-                .check{
+                .box{
                     min-width: 1.3125rem;
                     height: 1.3125rem;
                     border: 1px solid #828282;
@@ -116,11 +116,6 @@ span {
                 .ingredient{
                     font-style: 1rem;
                     font-family: $monse-font;
-
-                    // span {
-                    //     font-weight: 700;
-                    //     color: $grey1;
-                    // }
                 }
 
                 #suggestion{
@@ -210,15 +205,9 @@ span {
                     font-style: 1rem;
                     font-weight: 400;
                     font-family: $monse-font;
-
-                    // span {
-                    //     font-weight: 700;
-                    //     color: $grey1;
-                    // }
                 }
             }
 
-            
             #source{
                 display: inline-block;
                 font-family: $monse-font;
@@ -272,7 +261,6 @@ span {
             #title{
                 font-size: 1.714rem;
             }
-            
         }
 
         .content{
@@ -284,11 +272,9 @@ span {
                 height: 5rem;
                 box-shadow: none;
 
-                // flex-direction: row;
-
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(2, 10px);
+                grid-template-rows: repeat(2, 0.625rem);
 
                 .wrap{
                     grid-row: 2;
@@ -351,21 +337,3 @@ span {
         font-size: 12px;
     }
 }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-    
-}
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {
-    
-}
-
-// X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) {
-    
-}
-
-// XX-Large devices (larger desktops)
-// No media query since the xxl breakpoint has no upper bound on its width

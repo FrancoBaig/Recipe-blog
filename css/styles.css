@@ -77,7 +77,7 @@ span:hover {
   gap: 1.25rem;
   padding: 0.5rem 0px;
 }
-.container .content .ingredients .line .check {
+.container .content .ingredients .line .box {
   min-width: 1.3125rem;
   height: 1.3125rem;
   border: 1px solid #828282;
@@ -210,7 +210,7 @@ span:hover {
     box-shadow: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 10px);
+    grid-template-rows: repeat(2, 0.625rem);
   }
   .container .content .card .wrap {
     grid-row: 2;
