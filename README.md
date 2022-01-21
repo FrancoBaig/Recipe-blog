@@ -58,7 +58,7 @@
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
 - [x] User story: I can see a recipe with ingredients and instructions
-- [ ] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can select a checkbox if I have the ingredients
 - [x] User story: I can see the number of servings, baking times
 
 
