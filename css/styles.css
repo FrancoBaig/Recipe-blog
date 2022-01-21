@@ -82,6 +82,14 @@ span:hover {
   height: 1.3125rem;
   border: 1px solid #828282;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.container .content .ingredients .line .box.active {
+  border-color: #F2994A;
+  background: #F2994A;
 }
 .container .content .ingredients .line .ingredient {
   font-style: 1rem;
