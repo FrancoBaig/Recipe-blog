@@ -40,15 +40,7 @@
 ![screenshot](https://i.imgur.com/5ZkOQzb.png)
 ![screenshot](https://i.imgur.com/6luFn57.png)
 
-### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- HTML
-- CSS
-   - SASS 
-   - Flexbox and Grid
-   - AOS
 
 
 ## Features
