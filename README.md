@@ -37,8 +37,8 @@
 
 ## Overview
 
-![screenshot](https://i.imgur.com/Tv6hHpK.png)
-![screenshot](https://i.imgur.com/dHOGzra.png)
+![screenshot](https://i.imgur.com/5ZkOQzb.png)
+![screenshot](https://i.imgur.com/6luFn57.png)
 
 ### Built With
 
