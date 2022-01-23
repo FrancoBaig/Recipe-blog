@@ -73,11 +73,11 @@ span:hover {
   margin-bottom: 2.2rem;
 }
 .container .content .ingredients .line {
-  display: flex;
+  display: inline-flex;
   gap: 1.25rem;
   padding: 0.5rem 0px;
 }
-.container .content .ingredients .line .box {
+.container .content .ingredients .line .fake-checkbox {
   min-width: 1.3125rem;
   height: 1.3125rem;
   border: 1px solid #828282;
@@ -87,7 +87,7 @@ span:hover {
   align-items: center;
   color: #FFFFFF;
 }
-.container .content .ingredients .line .box.active {
+.container .content .ingredients .line .fake-checkbox.active {
   border-color: #F2994A;
   background: #F2994A;
 }
@@ -145,12 +145,12 @@ span:hover {
   font-size: 1.5rem;
   margin-bottom: 1.25rem;
 }
-.container .content .instructions .line {
-  display: flex;
+.container .content .instructions .instruction-line {
+  display: inline-flex;
   gap: 1.25rem;
   padding: 0.5rem 0rem;
 }
-.container .content .instructions .line .orange-box {
+.container .content .instructions .instruction-line .orange-box {
   min-width: 2.375rem;
   height: 2.375rem;
   background: #F2994A;
@@ -160,8 +160,8 @@ span:hover {
   font-size: 1.5rem;
   text-align: center;
 }
-.container .content .instructions .line .instruction {
-  font-style: 1rem;
+.container .content .instructions .instruction-line .step {
+  font-size: 1rem;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
 }

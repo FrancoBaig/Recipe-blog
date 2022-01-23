@@ -1,11 +1,5 @@
-$(function () {
-    $(".container .content .ingredients .line .box").click(function () {
-        $(this).toggleClass("active");
-        $(this).append("✔")
+let buttons = document.querySelectorAll('.fake-checkbox');
 
-        if (!$(this).hasClass("active")){
-            $(this).empty()
-        }
-
-    });
-});
+buttons.forEach(button => button.addEventListener('click', () => {
+    button.classList.toggle("active");
+}));

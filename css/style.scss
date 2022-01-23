@@ -22,11 +22,6 @@ html {
     transition: all .2s linear;
 }
 
-body{
-    // background: #C4C4C4;
-    // transition: all 300ms;
-}
-
 span {
     font-weight: 700;
     color: $grey1;
@@ -101,11 +96,11 @@ span {
             }
 
             .line{
-                display: flex;
+                display: inline-flex;
                 gap: 1.25rem;
                 padding:0.5rem 0px;
 
-                .box{
+                .fake-checkbox{
                     min-width: 1.3125rem;
                     height: 1.3125rem;
                     border: 1px solid #828282;
@@ -121,7 +116,6 @@ span {
                         background: $orange;
                     }
                 }
-                
 
                 .ingredient{
                     font-style: 1rem;
@@ -182,6 +176,7 @@ span {
                         color: $orange;
                     }
                 }
+
             }
         }
 
@@ -193,13 +188,10 @@ span {
                 margin-bottom: 1.25rem;
             }
 
-            .line{
-                display: flex;
+            .instruction-line{
+                display: inline-flex;
                 gap: 1.25rem;
                 padding:0.5rem 0rem;
-                
-
-                
     
                 .orange-box{
                     min-width: 2.375rem;
@@ -211,8 +203,8 @@ span {
                     text-align: center;
                 }
 
-                .instruction{
-                    font-style: 1rem;
+                .step{
+                    font-size: 1rem;
                     font-weight: 400;
                     font-family: $monse-font;
                 }
