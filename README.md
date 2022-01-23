@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="recipe-blog-francobaig.netlify.app">
+    <a href="https://recipe-blog-francobaig.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="recipe-blog-francobaig.netlify.app">
+    <a href="https://recipe-blog-francobaig.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -37,18 +37,10 @@
 
 ## Overview
 
-![screenshot](https://i.imgur.com/Tv6hHpK.png)
-![screenshot](https://i.imgur.com/dHOGzra.png)
+![screenshot](https://i.imgur.com/5ZkOQzb.png)
+![screenshot](https://i.imgur.com/6luFn57.png)
 
-### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- HTML
-- CSS
-   - SASS 
-   - Flexbox and Grid
-   - AOS
 
 
 ## Features
@@ -58,7 +50,7 @@
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
 - [x] User story: I can see a recipe with ingredients and instructions
-- [ ] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can select a checkbox if I have the ingredients
 - [x] User story: I can see the number of servings, baking times
 
 
