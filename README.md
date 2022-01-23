@@ -40,7 +40,11 @@
 ![screenshot](https://i.imgur.com/9vOj5gs.png)
 ![screenshot](https://i.imgur.com/I5yRhLY.png)
 
-
+## Built With
+- HTML
+- CSS
+   - Flexbox and Grid
+- JavaScript
 
 
 ## Features
